@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://neath.welshtownandcountry.co.uk/sitemap.xml
