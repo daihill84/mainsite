@@ -156,13 +156,17 @@ h5 {
     color: white;
     padding: 10px 15px;
     text-decoration: none;
-    border-radius: 5px;
 }
 
 /* Images */
 .left-image,
 .right-image {
     display: none;
+}
+
+img {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
 }
 
 /* Welcome Section */
@@ -217,112 +221,4 @@ iframe {
 }
 
 .areas ul {
-    list-style: none;
-    padding: 0;
-    font-size: 16px;
-}
-
-.areas li {
-    margin-bottom: 5px;
-}
-
-/* Footer */
-footer {
-    padding: 10px;
-    background-color: #3a3a3a;
-    color: white;
-    text-align: center;
-    font-size: 14px;
-}
-
-/* Floating Call Button */
-.floating-call-button {
-    position: fixed;
-    bottom: 15px;
-    right: 15px;
-    background-color: #4caf50; /* Match the navigation color */
-    color: white;
-    padding: 10px;
-    border-radius: 50%;
-    text-decoration: none;
-    font-size: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Shadow for depth */
-    z-index: 1000; /* Ensure it's on top */
-}
-
-/* Call to Action */
-.call-to-action {
-    text-align: center;
-    margin: 20px 0;
-}
-
-.call-btn {
-    margin-top: 10px;
-}
-
-/* Media Queries for Responsiveness */
-@media (max-width: 768px) {
-    .navigation ul {
-        flex-direction: column; /* Stack links */
-        align-items: center; /* Center align items */
-    }
-
-    .navigation li {
-        margin: 5px 0; /* Vertical spacing */
-    }
-}
-
-@media (max-width: 400px) {
-    .header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .contact-info {
-        margin-top: 10px;
-    }
-
-    .logo {
-        width: 40px;
-        height: 40px;
-    }
-
-    .company-name {
-        font-size: 16px;
-    }
-
-    .navigation ul {
-        flex-direction: column; /* Stack links */
-    }
-
-    .hero h1 {
-        font-size: 20px;
-    }
-
-    .services h2,
-    .welcome h2,
-    .contact h2,
-    .areas h2 {
-        font-size: 18px;
-    }
-
-    .services h3 {
-        font-size: 16px;
-    }
-}
-
-/* Additional Mobile Styles */
-@media (max-width: 320px) {
-    .navigation a {
-        font-size: 14px; /* Smaller text */
-    }
-
-    .welcome h2,
-    .services h2 {
-        font-size: 18px; /* Adjust heading size */
-    }
-
-    footer p {
-        font-size: 12px; /* Smaller footer text */
-    }
-}
+    list-sty
