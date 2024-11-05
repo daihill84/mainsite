@@ -212,31 +212,37 @@
         </section>
     </main>
 
-    <footer class="footer">
+   <footer>
         <p>&copy; 2024 Welsh Town And Country Pest Services. All rights reserved.</p>
-        <p>Follow us on <a href="https://www.facebook.com/profile.php?id=61564861332160">Facebook</a> for updates!</p>
+        <div class="contact-details">
+            <p>Contact us at <a href="tel:07375303124">07375 303124</a> or <a href="mailto:info@welshtownandcountry.co.uk">EMAIL ME</a></p>
+        </div>
+        <div class="footer-links">
+            <p>Powered by <a href="https://www.welshtownandcountry.co.uk/" target="_blank" rel="noopener noreferrer">Mainlite</a></p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=61564861332160" target="_blank" rel="noopener noreferrer">
+                    <img src="images/facebook_logo.png" alt="Facebook Icon" class="social-icon">
+                </a>
+                <a href="https://www.instagram.com/welshtownandcountry.co.uk/" target="_blank" rel="noopener noreferrer"> 
+                    <img src="images/Instagram_icon.png" alt="Instagram Icon" class="social-icon">
+                </a>
+                <a href="https://www.linkedin.com/in/welsh-town-and-country-pest-services/" target="_blank" rel="noopener noreferrer">
+                    <img src="images/linked-in.jpg" alt="LinkedIn Icon" class="social-icon">
+                </a>
+                <a href="https://www.youtube.com/channel/UC1ty_8r3JnreT1uFf5P2hmA" target="_blank" rel="noopener noreferrer">
+                    <img src="images/tube-icon.jpg" alt="YouTube Icon" class="social-icon">
+                </a>
+            </div>
+        </div>
     </footer>
 
     <div class="floating-call-button" onclick="window.location.href='tel:07375303124'">📞</div>
 
-    <script>
+      <script>
         function toggleEmail() {
-            const emailLink = document.getElementById('email-address');
-            if (emailLink.style.display === "none" || emailLink.style.display === "") {
-                emailLink.style.display = "block";
-            } else {
-                emailLink.style.display = "none";
-            }
+            var emailLink = document.getElementById("email-address");
+            emailLink.style.display = emailLink.style.display === "none" ? "block" : "none";
         }
-
-        function sendEmail() {
-            window.location.href = 'mailto:info@welshtownandcountry.co.uk';
-        }
-
-        fbq('track', 'Purchase', {
-            value: 30.00,
-            currency: 'USD'
-        });
     </script>
 </body>
 </html>
