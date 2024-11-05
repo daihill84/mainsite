@@ -137,7 +137,8 @@
     <h3>Get in Touch</h3>
     <p>You can contact us using the form below or reach out directly using our contact details.</p>
 
-    <form action="#" method="post" style="display: inline-block; text-align: left; max-width: 400px;">
+    <!-- Action points to PHP file that processes the form -->
+    <form action="send_email.php" method="POST" style="display: inline-block; text-align: left; max-width: 400px;">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required style="width: 100%; padding: 8px; margin-bottom: 10px;">
 
@@ -149,7 +150,8 @@
 
         <button type="submit" style="background-color: #28a745; color: white; border: none; border-radius: 5px; padding: 10px 15px; cursor: pointer;">Send Message</button>
     </form>
-        </section>
+</section>
+
 
         <section>
             <h3>Visit Us</h3>
