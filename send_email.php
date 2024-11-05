@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                   "Message:\n$message";
     
     // Headers to specify the sender's email
-    $headers = "From: no-reply@welshtownandcountry.co.uk"; // Replace with your domain email
+    $headers = "From: info@welshtownandcountry.co.uk"; // Replace with your domain email
     
     // Send the email
     if (mail($to, $subject, $email_body, $headers)) {
