@@ -43,8 +43,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.welshtownandcountry.co.uk/Pest_Control_merthyr.html
-</loc>
+    <loc>https://www.welshtownandcountry.co.uk/Pest_Control_merthyr.html</loc>
     <lastmod>2024-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -81,7 +80,7 @@
   </url>
   <url>
     <loc>https://www.welshtownandcountry.co.uk/pest-management.html</loc>
-    <lastmod>2024-11-01</lastmod>
+    <lastmod>2025-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -102,5 +101,11 @@
     <lastmod>2024-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.welshtownandcountry.co.uk/cardiff.html</loc>
+    <lastmod>2025-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
