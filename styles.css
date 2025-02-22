@@ -170,7 +170,7 @@ footer p {
     
     /* Logo Size */
     .logo-container .logo {
-        width: 80%; /* Adjust to match the size of service items */
+        width: 80%;
         height: auto;
         margin: 0 auto;
         display: block;
@@ -217,5 +217,10 @@ footer p {
     /* Call to Action */
     .call-to-action p {
         font-size: 1.1em;
+    }
+
+    /* Footer */
+    footer p {
+        font-size: 1em;
     }
 }
