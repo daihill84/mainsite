@@ -167,6 +167,14 @@ footer p {
     header p {
         font-size: 1em;
     }
+    
+    /* Logo Size */
+    .logo-container .logo {
+        width: 80%; /* Adjust to match the size of service items */
+        height: auto;
+        margin: 0 auto;
+        display: block;
+    }
 
     /* Service Section */
     .service-item {
