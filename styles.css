@@ -16,6 +16,7 @@ header {
 header h1 {
     font-size: 2.5em;
     color: #fff;
+    margin: 0;
 }
 .contact-info {
     margin-top: 20px;
@@ -37,7 +38,7 @@ header h1 {
 /* Service Section Styles */
 .service-section {
     background-color: #2c3e50;
-    padding: 50px;
+    padding: 50px 20px;
     text-align: center;
 }
 .service-item {
@@ -60,6 +61,7 @@ header h1 {
 .service-item h3 {
     color: #F6B041;
     font-size: 1.8em;
+    margin: 10px 0;
 }
 .service-item p {
     color: #fff;
@@ -80,7 +82,7 @@ footer p {
 /* Testimonial Section */
 .testimonial-section {
     background-color: #16a085;
-    padding: 40px;
+    padding: 40px 20px;
 }
 .testimonial {
     color: #fff;
@@ -98,21 +100,26 @@ footer p {
 /* Call to Action Section */
 .call-to-action {
     background-color: #e74c3c;
-    padding: 50px;
+    padding: 50px 20px;
     text-align: center;
 }
 .call-to-action h2 {
     font-size: 2.5em;
     color: #fff;
+    margin: 0;
 }
 .call-to-action p {
     color: #fff;
     font-size: 1.2em;
+    margin: 20px 0;
 }
 .call-to-action .call-button {
     background-color: #fff;
     color: #e74c3c;
+    padding: 15px 25px;
     border-radius: 5px;
+    font-size: 1.5em;
+    text-decoration: none;
 }
 .call-to-action .call-button:hover {
     background-color: #c0392b;
@@ -121,6 +128,7 @@ footer p {
 
 /* Responsive Design */
 @media only screen and (max-width: 768px) {
+    /* Service Section */
     .service-item {
         display: block;
         width: 80%;
@@ -133,5 +141,29 @@ footer p {
 
     .service-item h3 {
         font-size: 1.5em;
+    }
+
+    /* Header */
+    header h1 {
+        font-size: 2em;
+    }
+
+    .call-button {
+        font-size: 1.3em;
+        padding: 8px 16px;
+    }
+
+    /* Testimonial Section */
+    .testimonial-section {
+        padding: 30px 20px;
+    }
+
+    .testimonial p {
+        font-size: 1em;
+    }
+
+    /* Call to Action */
+    .call-to-action p {
+        font-size: 1.1em;
     }
 }
