@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"> 
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Expert pest control services in Neath, Swansea, and surrounding areas. Protect your home or business from house flies, woodworm, mosquitoes, and more!">
     <meta name="keywords" content="Pest Control Neath, Insect Control, House Fly, Mosquitoes, Woodworm Treatment, Pest Extermination, Rodent Control, Pest Management South Wales">
@@ -10,7 +10,7 @@
     <meta name="geo.position" content="51.7210854;-3.7953355">
     <meta name="ICBM" content="51.7210854,-3.7953355">
     <link rel="apple-touch-icon" href="images/apple_touch_icon.png">
-    <link rel="canonical" href="https://www.welshtownandcountry.co.uk/landing_page">
+    <link rel="canonical" href="https://www.welshtownandcountry.co.uk">
     <title>Expert Pest Control Services in Neath, South Wales | Welsh Town and Country</title>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/desktop.css">
@@ -42,24 +42,197 @@
       return false;
     }
     </script>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+        color: #333;
+      }
+
+      header {
+        background-color: #005c87;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        margin-bottom: 20px;
+      }
+
+      header .logo-container img {
+        max-width: 120px;
+        margin-bottom: 10px;
+      }
+
+      .hero {
+        background: url('images/hero-bg.jpg') no-repeat center center/cover;
+        color: white;
+        text-align: center;
+        padding: 100px 20px;
+      }
+
+      .hero h1 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+      }
+
+      .cta-button {
+        background-color: #ff6f61;
+        color: white;
+        padding: 15px 25px;
+        font-size: 1.2rem;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 20px;
+        display: inline-block;
+      }
+
+      .cta-button:hover {
+        background-color: #e65c53;
+      }
+
+      .cta-button:active {
+        background-color: #cc4c42;
+      }
+
+      section {
+        padding: 50px 20px;
+        text-align: center;
+      }
+
+      .services .service-list {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 30px;
+      }
+
+      .service-item {
+        background-color: white;
+        padding: 20px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        width: 300px;
+        border-radius: 10px;
+        transition: transform 0.3s;
+      }
+
+      .service-item:hover {
+        transform: scale(1.05);
+      }
+
+      .service-item h3 {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+      }
+
+      .service-item p {
+        font-size: 1rem;
+      }
+
+      footer {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      footer a {
+        color: #ff6f61;
+        text-decoration: none;
+        margin: 0 10px;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+
+      .footer-nav ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+      }
+
+      .footer-nav li {
+        margin: 0 10px;
+      }
+
+      @media (max-width: 900px) {
+        .hero {
+          padding: 80px 20px;
+        }
+
+        .hero h1 {
+          font-size: 2rem;
+        }
+
+        .cta-button {
+          padding: 12px 20px;
+          font-size: 1rem;
+        }
+
+        .services .service-list {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .service-item {
+          width: 90%;
+          max-width: 350px;
+          margin-bottom: 20px;
+        }
+
+        footer {
+          padding: 15px 0;
+        }
+      }
+
+      @media (max-width: 768px) {
+        header {
+          padding: 10px;
+        }
+
+        header .logo-container img {
+          max-width: 100px;
+        }
+
+        .hero h1 {
+          font-size: 1.8rem;
+        }
+
+        .cta-button {
+          padding: 10px 15px;
+          font-size: 1rem;
+        }
+
+        .service-item {
+          width: 100%;
+        }
+
+        footer {
+          font-size: 0.9rem;
+        }
+      }
+
+    </style>
 </head>
 <body>
     <header class="header">
         <div class="logo-container">
             <img src="images/logo.png" alt="Welsh Town and Country Pest Services" class="logo">
-            <div class="company-name">Welsh Town and Country Pest Services</div>
+            <h1>Welsh Town and Country Pest Services</h1>
         </div>
         <div class="contact-info">
-            <!-- Updated phone link to trigger the conversion tracking -->
-            <a href="tel:07375303124" class="phone-button" onclick="return gtag_report_conversion('tel:07375303124');">Call Us Now: 07375 303124</a>
+            <a href="tel:07375303124" class="cta-button" onclick="return gtag_report_conversion('tel:07375303124');">Call Now: 07375 303124</a>
         </div>
     </header>
 
     <section class="hero">
         <div class="hero-content">
-            <h1>Protect Your Home or Business from Unwanted Pests</h1>
-            <p>Get professional pest control for house flies, mosquitoes, woodworm, and more. Serving Neath, Swansea, and surrounding areas.</p>
-            <!-- Updated phone link to trigger the conversion tracking -->
+            <h1>Protect Your Home from Unwanted Pests</h1>
+            <p>Expert pest control for house flies, mosquitoes, woodworm, and more. Serving Neath, Swansea, and all of South Wales.</p>
             <a href="tel:07375303124" class="cta-button" onclick="return gtag_report_conversion('tel:07375303124');">Call Now for Fast, Reliable Service</a>
         </div>
     </section>
@@ -113,7 +286,6 @@
     <section class="call-to-action">
         <h2>Get Your Pest Control Solution Today</h2>
         <p>Don’t wait! Call us now to schedule a free consultation and get a custom pest control plan.</p>
-        <!-- Updated phone link to trigger the conversion tracking -->
         <a href="tel:07375303124" class="cta-button" onclick="return gtag_report_conversion('tel:07375303124');">Call Now</a>
     </section>
 
