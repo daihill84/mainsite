@@ -90,22 +90,22 @@
         <p>&copy; 2024 Welsh Town And Country Pest Services. All rights reserved.</p>
     </footer>
 
-    <!-- Event snippet for Click to call conversion -->
-    <script>
-        function gtag_report_conversion(url) {
-            var callback = function () {
-                if (typeof(url) != 'undefined') {
-                    window.location = url;
-                }
-            };
-            gtag('event', 'conversion', {
-                'send_to': 'AW-16696853324/SyXNCOTnuqEaEMyG15k-',
-                'value': 1.0,
-                'currency': 'GBP',
-                'event_callback': callback
-            });
-            return false;
-        }
-    </script>
+    <!-- Event snippet for Contact (1) conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-16696853324/fqfUCMzHwaEaEMyG15k-',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
 </body>
 </html>
